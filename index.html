@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mudanças Climáticas no Brasil</title>
+    <link rel="icon" type="image/png" href="logo-clima.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mudanças Climáticas: Percepção e Impactos no Brasil</h1>
+    </header>
+
+    <main>
+        <section class="dados-principais">
+            <div class="estatistica">
+                <h2>Percepção da População</h2>
+                <p>97% dos brasileiros já percebem mudanças climáticas em seu cotidiano</p>
+                <canvas id="percepcaoChart"></canvas>
+                <p class="fonte">Fonte: Datafolha, 2024</p>
+            </div>
+            
+            <div class="texto-dados">
+                <h2>Principais Descobertas</h2>
+                <ul>
+                    <li>Mais da metade dos entrevistados (58%) pontuou que os países não conseguirão agir para reverter os impactos da crise do clima</li>
+                    <li>Porém, apenas 53% diz acreditar que o fim da normalidade seja um risco imediato para a população da Terra</li>
+                    <li>Quase um terço (31%) avalia haver exagero de pesquisadores e ambientalistas quanto a impactos da mudança climática</li>
+                    <li>A pesquisa também estimou a disposição dos brasileiros para mudar seus hábitos de consumo em prol do clima global</li>
+                    <li>A pesquisa reforçou a preocupação generalizada dos brasileiros com os efeitos das mudanças climáticas no seu dia-a-dia, como o calor extremo e as chuvas intensas</li>
+                </ul>
+                <p class="fonte">Fontes: Datafolha e Copernicus Climate Change Service, 2024</p>
+            </div>
+        </section>
+
+        <section class="impactos-climaticos">
+            <h2>Dados Alarmantes sobre Clima Extremo</h2>
+            <div class="grid-impactos">
+                <div class="impacto">
+                    <h3>Temperatura Global</h3>
+                    <p>+1,5°C acima dos níveis pré-industriais</p>
+                </div>
+                <div class="impacto">
+                    <h3>Eventos Extremos</h3>
+                    <p>Aumento de 50% em eventos climáticos extremos</p>
+                </div>
+                <div class="impacto">
+                    <h3>Derretimento de Gelo</h3>
+                    <p>Redução de 13% na área de gelo ártico</p>
+                </div>
+                <div class="impacto">
+                    <h3>Impacto Econômico</h3>
+                    <p>Prejuízos estimados em bilhões de dólares</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="grafico-aquecimento">
+            <h2>Aquecimento Global</h2>
+            <p>2023 foi o ano mais quente já registrado na história</p>
+            <canvas id="aquecimentoChart"></canvas>
+            <p class="fonte">Fonte: Copernicus Climate Change Service, 2024</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fontes: Datafolha, Copernicus Climate Change Service, National Geographic</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
